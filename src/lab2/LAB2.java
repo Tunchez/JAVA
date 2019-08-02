@@ -146,7 +146,7 @@ public class LAB2 {
                             mail[i] = entrada.next();
                             System.out.println("   ");
                         }
-                        System.out.println("NO.\tNOMBRE\t\tEDAD\tTELEFONO\tCORREO\n");
+                        System.out.println("NO.\tNOMBRE\t\tEDAD\tTELEFONO\t\tCORREO\n");
                         for (i = 0; i < n; i++) {
                             System.out.println((i + 1) + "\t" + nom[i] + "\t\t" + edad[i] + "\t" + tel[i] + "\t\t" + mail[i]);
                         }
@@ -165,8 +165,10 @@ public class LAB2 {
 
                         System.out.println("FUNCIONES\nEn esta parte se llena un vector de 10 casillas con numeros random\n"
                                 + "y luego se los mostrara ordenados ascendentemente.\n");
-
+                        System.out.println("DESORDENADO");
+                        mostrar(B);
                         Burbuja(B);
+                        System.out.println("ORDENADO");
                         mostrar(B);
                         break;
                     case 7:
